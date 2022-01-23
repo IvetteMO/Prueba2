@@ -5,8 +5,8 @@ jobs:
       runs-on: ubuntu-latest 
       steps:
         - name: 'Clonar y revision de la rama actual'
-           uses: actions/checkout@v1
+          uses: actions/checkout@v1
         - name: Instalar dependencias
           run: yarn install
         - name: Ejecutando test
-           run: yarn test
+          run: yarn test
